@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/algoritms-and-data-structure/internal/sort"
-	"github.com/algoritms-and-data-structure/internal/stack"
+	"github.com/algorithms-and-data-structure/internal/sort"
+	"github.com/algorithms-and-data-structure/internal/stack"
 )
 
 func main() {
