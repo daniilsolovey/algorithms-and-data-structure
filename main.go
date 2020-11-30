@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/algorithms-and-data-structure/internal/sort"
-	"github.com/algorithms-and-data-structure/internal/stack"
+	"github.com/daniilsolovey/algorithms-and-data-structure/internal/sort"
+	"github.com/daniilsolovey/algorithms-and-data-structure/internal/stack"
 )
 
 func main() {
@@ -30,7 +30,7 @@ func main() {
 	sort.InsertionSort(data)
 	fmt.Println("data after insertion sort: ", data)
 
-	data = []int{3, 4, 1, 2, 7, 8, 9, 10, 100, 200, 95, 340}
+	data = []int{3, 4, 1, 2, 7, 8, 9, 10, 100, 200, 95}
 	fmt.Println("data before shell sort: ", data)
 	sort.ShellSort(data)
 	fmt.Println("data after shell sort: ", data)
