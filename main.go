@@ -35,6 +35,10 @@ func main() {
 	sort.ShellSort(data)
 	fmt.Println("data after shell sort: ", data)
 
+	data = []int{3, 4, 1, 2, 7, 8, 9, 10, 100, 200, 95}
+	result, count := stack.BinarySearch(data, 100)
+	fmt.Printf("data after searching: %d, count: %d\n", result, count)
+
 	slice := stack.NewSlice(data)
 	HandleSlice(slice)
 }
